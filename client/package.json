@@ -1,0 +1,44 @@
+{
+  "name": "video-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-webpack": "webpack-dev-server",
+    "build-webpack": "webpack",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otakekazu/video-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otakekazu/video-chat/issues"
+  },
+  "homepage": "https://github.com/otakekazu/video-chat#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "firebase": "^8.10.0",
+    "html-webpack-plugin": "^5.3.2",
+    "react": "^17.0.1",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^4.0.3",
+    "serve": "^12.0.1",
+    "simple-peer": "^9.11.0",
+    "socket.io-client": "^4.2.0",
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
